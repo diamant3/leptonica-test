@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Build the program
-        uses: actions:checkout@v4
+        uses: actions/checkout@v4
         run: |
           cd convert-to-gray
           make clean && make
