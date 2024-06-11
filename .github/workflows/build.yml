@@ -1,0 +1,15 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: pspdev/pspdev:latest
+
+    steps:
+      - name: Build the program
+        uses: actions:checkout@v4
+        run: |
+          cd convert-to-gray
+          make clean && make

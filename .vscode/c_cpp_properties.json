@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${PSPDEV}/psp/include/**",
+                "${PSPDEV}/psp/sdk/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "${PSPDEV}/bin/psp-gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
