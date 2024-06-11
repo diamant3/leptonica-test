@@ -8,8 +8,10 @@ jobs:
     container: pspdev/pspdev:latest
 
     steps:
-      - name: Build the program
+      - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Build the program
         run: |
           cd convert-to-gray
           make clean && make
