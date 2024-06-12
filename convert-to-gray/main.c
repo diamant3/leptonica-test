@@ -1,6 +1,8 @@
 #include <pspkernel.h>
 #include <pspdebug.h>
 
+#include <stdlib.h>
+
 #include <leptonica/allheaders.h>
 
 PSP_MODULE_INFO("convert-to-gray", 0, 1, 1);
